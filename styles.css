@@ -1,0 +1,309 @@
+:root {
+    --primary: #05BB75;
+    --secondary: #FF6464;
+    --dark-blue: #212C4F;
+}
+
+.button {
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 100px;
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.primary-text {
+    color: var(--primary);
+}
+
+.secondary-text {
+    color: var(--secondary);
+}
+
+.primary {
+    background-color: var(--primary);
+}
+
+.secondary {
+    background-color: var(--secondary);
+}
+
+.detail-text {
+    color: #ffcd00;
+}
+
+h1,
+h2,
+h3,
+p,body{
+    margin: 0;
+}
+
+h3 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('fonts/sofiapro/Fonts/sofiapro-light.otf') format('otf');
+}
+
+html {
+    font-family: 'Sofia Pro', sans-serif;
+    background-color: #fafafa;
+}
+
+body {
+    font-family: 'Sofia Pro', sans-serif;
+}
+
+/*--- HEADER ---*/
+.logo {
+    display: block;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: var(--dark-blue);
+    font-family: 'Sofia Pro';
+    font-size: 18px;
+    margin: 20px 70px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+
+
+.icon {
+    margin: auto;
+}
+
+/*--- HERO ---*/
+.section {
+    display: flex;
+    align-items: center;
+    padding: 70px;
+    justify-content: space-between;
+    color: #212C4F;
+    height: 600px;
+
+}
+
+.section-left {
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+
+}
+
+
+
+h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+h4{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.hero-h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.normal-text {
+    color: rgba(33, 44, 79, 0.70);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.button-container {
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.white-bg {
+    background-color: #ffffff;
+}
+
+.services {
+    
+    text-align: center;
+    padding: 70px 150px 200px 150px;
+    text-align: center;
+    
+}
+
+.text-container{
+    margin-bottom: 70px;
+    
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    height: 322px;
+    width: 350px;
+    background-color: #ffffff;
+    padding: 30px;
+    
+    
+}
+
+/* .card-icon{
+    height: 30px;
+    width: 30px;
+} */
+
+.card p{
+    margin-bottom: 30px;
+}
+
+/*--- COUNTER ---*/
+.count{
+    background-color: var(--primary);
+    color: #ffffff;
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.count-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.count-div{
+    width: 255px;
+}
+.number{
+    font-size: 48px;
+    font-weight: 800;
+}
+.count-desc{
+    font-size: 18px;
+}
+
+.count h1{
+    font-size: 48px;
+}
+.count p{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+/*--- CLIENTS ---*/
+.clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 140px 165px;
+}
+.review-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.review-title{
+    color: var(--primary);
+    font-size: 20px;
+    text-align: center;
+}
+.review-comment{
+    color: rgba(33, 44, 79, 0.70);
+    font-size: 14px;
+    text-align: center;
+}
+.review-card{
+    width: 350px;
+    border-radius: 10px;
+    padding: 0.5rem;
+
+}
+
+/*--- FOOTER ---*/
+.footer-container{
+    padding: 64px 0px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: var(--dark-blue);
+  
+    
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    
+}
+
+.footer-title{
+    color: var(--primary);
+    font-size: 18px;
+   
+}
+.footer-nav{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    color: #EEEFF4;
+    gap: 12px;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+
+.small-footer{
+    color: #D9DBE1;
+    padding: 24px 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    display: flex;
+    gap: 24px;
+}
+.download-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
